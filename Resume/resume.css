@@ -1,0 +1,134 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .resume-container {
+            width: 210mm;
+            height: 250mm;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 20px;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+
+        .sidebar {
+            height: 220mm;
+            background-color: grey;
+            color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-content {
+            padding: 20px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+        .profile h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .profile p {
+            font-size: 14px;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+            font-size: 15px;
+        }
+
+        .skills, .education {
+            margin-top: 20px;
+        }
+
+        .skills ul, .education ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .education p{
+            font-size: 13px;
+        }
+        .education li {
+            font-weight: bold;
+        }
+        .skills li{
+            margin-bottom: 10px;
+        }
+
+        .main-section h2 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+            border-bottom: 2px solid grey;
+        }
+
+        .main-section p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #555;
+            text-align: justify;
+        }
+
+        .experience, .education {
+            margin-bottom: 20px;
+        }
+
+        .responsibilities, .degree {
+            margin-bottom: 10px;
+        }
+
+        .degree-title {
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .date {
+            font-size: 12px;
+            color: #999;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #999;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+        }
+    
+        .grid-item {
+            padding: 10px;
+        }
